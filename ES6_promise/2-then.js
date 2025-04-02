@@ -1,5 +1,5 @@
 export default function handleResponseFromAPI(promise) {
-  promise
+  return promise
     .then(() => {
       // Si la Promise est résolue, on retourne l'objet avec le statut et le message
       console.log('Got a response from the API');
