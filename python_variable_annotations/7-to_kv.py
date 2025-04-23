@@ -6,6 +6,7 @@ This module defines a function that returns a tuple with a string and the square
 
 from typing import Union, Tuple
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Return a tuple where the first element is a string, and the second element is the square of v.
