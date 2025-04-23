@@ -9,11 +9,11 @@ from typing import List, Union
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
-    Sum the elements of a list containing both integers and floats, 
+    Sum the elements of a list containing both integers and floats,
     and return the result.
 
     Args:
-        mxd_lst (List[Union[int, float]]): The list containing integers 
+        mxd_lst (List[Union[int, float]]): The list containing integers
         and floats
 
     Returns:
