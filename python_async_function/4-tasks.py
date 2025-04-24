@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module that defines task_wait_n which spawns tasks using task_wait_random."""
+"""Module that defines task_wait_n which spawns tasks using task_wait_random"""
 
 import asyncio
 from typing import List
