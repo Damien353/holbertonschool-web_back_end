@@ -12,9 +12,6 @@ and the 'nginx' collection, and prints:
 from pymongo import MongoClient
 
 if __name__ == "__main__":
-    """
-    Entry point that connects to the database and prints the required stats.
-    """
     client = MongoClient('mongodb://127.0.0.1:27017')
     db = client['logs']
     collection = db['nginx']
